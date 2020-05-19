@@ -25,7 +25,7 @@ const Cart = () => {
     return (
         <main className="cart-page">
             {cartItemElements}
-            <p className="total-cost">Totoal: {totalCostDisplay}</p>
+            <p className="total-cost">Total: {totalCostDisplay}</p>
 
             {
                 cartItems.length > 0 ?
